@@ -8,7 +8,14 @@ const products = {
 }
 
 router.get("/", async(req, res, next) => {
+
     res.status(200).json(products)
 })
+
+//send info to the server 
+router.post("/order", async(req, res, next) => {
+    console.log(req.body)
+})
+
 
 module.exports = router                 //allows other parts of our application to access routes listed here

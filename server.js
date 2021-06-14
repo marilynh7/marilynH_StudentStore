@@ -5,7 +5,9 @@ const storeRouter = require("./routes/store")       //allows us to access store 
 
 const app = express()                               //instantiated express 
 
+//
 app.use(morgan("tiny"))                             //will log requests to server in the terminal 
+app.use(express.json())                             //any time we send a post request express will parse the request as JSON
 app.use("/store", storeRouter)                      //attatch the storeRouter to the endpoint /store
 
 const port = 3000                                   //the port to listen to 
