@@ -1,0 +1,23 @@
+{
+  "name": "marilynh_studentstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marilynh7/marilynH_StudentStore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marilynh7/marilynH_StudentStore/issues"
+  },
+  "homepage": "https://github.com/marilynh7/marilynH_StudentStore#readme",
+  "dependencies": {
+    "express": "^5.0.0-alpha.8",
+    "morgan": "^1.10.0"
+  }
+}
